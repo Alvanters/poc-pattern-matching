@@ -36,10 +36,11 @@ public class InstanceOf {
         if (!(object instanceof String s)) {
             return null;
         } else {
+            System.out.println(s.length()); // s in scope
 
             // hier allerlei logica
 
-            return s.length();
+            return s.length(); // s nog steeds in scope
         }
     }
 
