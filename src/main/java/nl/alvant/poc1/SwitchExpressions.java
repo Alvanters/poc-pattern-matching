@@ -1,6 +1,7 @@
 package nl.alvant.poc1;
 
 /**
+ * Switch Expressions
  * Preview in JDK 12 & 13 (–enable-preview aan compiler geven). Beschikbaar vanaf 14.
  */
 public class SwitchExpressions {

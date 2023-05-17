@@ -7,8 +7,9 @@ import nl.alvant.poc3.Triangle;
 import nl.alvant.poc5.questions.*;
 
 /**
+ * Guarded Pattern
  * Preview in JDK 18 (–enable-preview aan compiler geven).
- * Guarded Pattern = PrimaryPattern && ConditionalAndExpression
+ * Guarded Pattern: PrimaryPattern && ConditionalAndExpression
  */
 public class GuardedPatterns {
 
@@ -51,15 +52,6 @@ public class GuardedPatterns {
             default -> "How?";
         };
     }
-
-
-
-
-
-
-
-
-
 
     private static boolean where() {
         return true;

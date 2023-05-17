@@ -1,6 +1,7 @@
 package nl.alvant.poc4;
 
 /**
+ * Pattern Matching for InstanceOf
  * Preview in JDK 14 & 15 (–enable-preview aan compiler geven). Beschikbaar vanaf 16.
  */
 public class InstanceOf {

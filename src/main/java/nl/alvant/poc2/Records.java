@@ -5,7 +5,9 @@ import nl.alvant.poc2.simple.ImprovedPoint;
 import nl.alvant.poc2.simple.Point;
 
 /**
+ * Records
  * Preview in JDK 14 & 15 (–enable-preview aan compiler geven). Beschikbaar vanaf 16.
+ * 
  * Voorkomt boilerplate van:
  * Getters
  * AllArgs Constructor

@@ -4,6 +4,7 @@ import nl.alvant.poc2.simple.ImprovedPoint;
 import nl.alvant.poc6.rectangle.*;
 
 /**
+ * Record Pattern
  * Preview in JDK 19 (–enable-preview aan compiler geven).
  */
 public class PatternMatchingRecord {

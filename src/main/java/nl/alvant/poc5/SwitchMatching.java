@@ -1,6 +1,5 @@
 package nl.alvant.poc5;
 
-
 import nl.alvant.poc3.Pentagon;
 import nl.alvant.poc3.Shape;
 import nl.alvant.poc3.Square;
@@ -9,6 +8,7 @@ import nl.alvant.poc3.Triangle;
 import java.awt.*;
 
 /**
+ * Pattern Matching for Switch
  * Preview in JDK 17 (–enable-preview aan compiler geven).
  */
 public class SwitchMatching {
