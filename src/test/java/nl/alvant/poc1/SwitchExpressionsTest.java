@@ -35,6 +35,7 @@ public class SwitchExpressionsTest {
     public void test_exception() {
         try {
             SwitchExpressions.dayOfWeek(UNKNOWN);
+
             fail("exception expected");
         } catch (IllegalStateException e) {
 

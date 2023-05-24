@@ -9,11 +9,15 @@ public class SwitchExpressions {
     public static int dayOfWeek(DayOfWeek day) {
         return switch (day) {
             case MONDAY, FRIDAY, SUNDAY -> 6;
-            case TUESDAY -> 7;
+            case TUESDAY -> getNumberSeven();
             case THURSDAY, SATURDAY -> 8;
             case WEDNESDAY -> 9;
             default -> throw new IllegalStateException("Unknown " + day);
         };
+    }
+
+    private static int getNumberSeven() {
+        return 7;
     }
 
     enum DayOfWeek {
